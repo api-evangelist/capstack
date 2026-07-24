@@ -1,8 +1,20 @@
 aid: capstack
 name: Capstack
-description: 'Capstack is a company surfaced as a portfolio company of cowboy-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Capstack Technologies operates a digital bank-to-bank marketplace that lets
+  banks, credit unions, and other financial institutions trade whole loans and
+  loan participations, access liquidity, and manage portfolio concentration
+  risk. Founded in 2023 and headquartered in Miami, FL, the SaaS platform
+  integrates with originating banks' core banking systems and loan-origination
+  systems (LOS) to surface loans available for syndication, then lets
+  participating institutions search by criteria, ask questions live, and submit
+  bids. It adds loan servicing (payment processing, remittance reporting, loan
+  status tracking) and real-time portfolio analytics, specializing in commercial
+  real estate, multifamily residential, and farmland loans. The marketplace has
+  featured over $2B in assets across 200+ registered banks and credit unions.
+  Capstack is backed by Cowboy Ventures and Citi Ventures. This is a private
+  enterprise platform accessed via a demo/onboarding flow; no public developer
+  API, SDKs, or documentation are published at this time.
 url: https://raw.githubusercontent.com/api-evangelist/capstack/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +22,31 @@ x-backed-by:
 - cowboy-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/680e1a1aae58387b8bb8c846/680e204ddfbff60dbb7906ec_capstack-logo.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Banking
+- Loan Marketplace
+- Loan Trading
+- Loan Servicing
+- Portfolio Analytics
+- Credit Unions
+- Capital Markets
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +54,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/capstack-domain-security.yml
 - type: Website
-  url: https://www.capstack.com
+  url: https://capstack.ai
+- type: Login
+  url: https://app.capstack.ai/
+- type: Blog
+  url: https://capstack.ai/blog
+- type: TermsOfService
+  url: https://capstack.ai/terms-conditions
+- type: PrivacyPolicy
+  url: https://capstack.ai/privacy-policy
+- type: News
+  url: https://capstack.ai/news
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
