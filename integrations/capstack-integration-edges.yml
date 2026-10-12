@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/capstack/integrations
+- https://n8n.io/integrations/capstack/
+- https://composio.dev/toolkits/capstack
+- https://monid.ai/tools/capstack
+checked:
+- https://composio.dev/toolkits/capstack
+- https://monid.ai/tools/capstack
+- https://n8n.io/integrations/capstack/
+- https://zapier.com/apps/capstack/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
